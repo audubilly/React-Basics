@@ -1,13 +1,18 @@
 import React from 'react'
 
-const Male = (props) => {
+// const Male = ( props ) => {
+
+const Male = ({ color, height, weight }) => {
+
     return (
         <div>
-            <div>{props.Height}</div>
-            <div>{props.Weight}</div>
+            {/* <div>{ props.color }</div> */}
+            <div>{ color }</div>
+            <div>{ height }</div>
+            <div>{ weight }</div>
         </div>
     )
+
 }
 
-
-export default Male;
+export default Male
