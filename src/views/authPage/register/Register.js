@@ -2,16 +2,12 @@ import React from 'react'
 import { useEffect } from 'react'
 import Button from '../../../components/reusable/Button'
 import Input from '../../../components/reusable/Input'
-import './register.css'
+import './Register.css'
+
 
 const Register = () => {
 
-    let data = {
-        email: '',
-        username: '',
-        password: '',
-        confirmPassword: ''
-    } 
+    let data = {}
 
     const getData = (key, value) => {
         data[key] = value

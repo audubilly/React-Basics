@@ -1,0 +1,58 @@
+.post-wrapper{
+    border-radius: 6px;
+    margin-bottom: 20px;
+    contain: content;
+}
+
+.post-calender{
+    height: 4vh;
+    width: 4vh;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    border-radius: 3px;
+    padding: 1rem 1.3rem;
+
+    -webkit-box-shadow: 5px 5px 17px -2px #4c4c4c;
+}
+
+.post-calender h3{
+    color: #de4848;
+}
+
+.post-calender h3{
+    position: relative;
+    color: #020202;
+    top: -1.8rem;
+    left: -1.2rem;
+}
+
+.post-content{
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.post-content h2{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.post-header{
+    background-color: white;
+    display: flex;
+}
+
+.post-header img{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin: 10px 10px;
+}
+
+.post-username{
+    font-size: 12px;
+    font-weight: bold;
+    align-self: center;
+}

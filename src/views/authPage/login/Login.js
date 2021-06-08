@@ -1,9 +1,9 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState} from 'react'
 import { useHistory } from 'react-router'
 import Button from '../../../components/reusable/Button'
 import Input from '../../../components/reusable/Input'
-import './login.css'
+import './Login.css'
 
 const Login = () => {
     
@@ -16,14 +16,6 @@ const Login = () => {
         data[key] = value
     }
 
-    // const logData = () => {
-    //     console.log(data)
-    // }
-
-    // useEffect(() => {
-    //     console.log('Login: i mounted')
-    //     return () => console.log('Login: i unmounted');
-    // }, [])
 
     const [loading, setLoading] = useState(false)
 

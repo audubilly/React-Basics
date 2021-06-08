@@ -1,0 +1,4 @@
+.post-container{
+    overflow-y: auto;
+    position: relative;
+}
